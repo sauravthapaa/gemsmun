@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Noto Sans", serif;
+  font-size: 2em;
+  color: #333;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: #666;
+  margin: 30px 0;
+}
+
+.image {
+  background: url("globe.avif") no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 20px;
+}
+
+.committees {
+  overflow: visible;
+  width: 100%;
+  border-radius: 20px;
+  background: url("map.jpeg") no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.committees h3 {
+  text-align: center;
+}
+
+.image h1 {
+  text-align: center;
+  padding-top: 30vh;
+  font-size: 50px;
+  color: white;
+}
+
+.content {
+  min-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.siteTitle {
+  display: block;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .siteTitle {
+    font-size: 60px;
+  }
+}
+
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 20px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background-size: cover;
+  box-shadow: 0 6px 10px 0 #ffffff33, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("trump.avif");
+  text-shadow: 0 1px 0 black;
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: 300px;
+  }
+}
+
+.inner {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px;
+}
+
+.inner p{
+  color: #fff;
+}
+
+.inner h2{
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+.title {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  color: #181818;
+  text-shadow: 0px 2px 2px #a6f8d5;
+  position: relative;
+  margin: 0 0 20px 0;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+.subtitle {
+  color: #b0215e;
+  text-align: center;
+}
+
+.card-content {
+  font-size: 12px;
+}
+
+@media all and (max-width: 600px) {
+  .title {
+    font-size: 20px;
+    padding-top: 50px;
+    scroll-behavior: smooth;
+  }
+  .card-content {
+    font-size: 12px;
+  }
+}
+
+.card2 {
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("eco.jpeg");
+}
+
+.card3 {
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("globe.avif");
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0;
+}
+
+.footerLink {
+  margin-right: 12px;
+  color: #181818;
+  text-decoration: none;
+  position: relative;
+}
+
+.footerLink:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: rgba(176, 33, 94, 0.3);
+  left: 0;
+  bottom: 0;
+}
+
+.footerLink:last-child {
+  margin-right: 0;
+}
+
+a:link,
+a:visited {
+  color: #666;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #01c59f;
+}
+/*# sourceMappingURL=demo.css.map */
